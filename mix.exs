@@ -7,7 +7,7 @@ defmodule Delegate.MixProject do
   def project do
     [
       app: :delegate,
-      version: "0.1.0",
+      version: @version,
       elixir: "~> 1.7",
       package: package(),
       deps: deps(),
@@ -46,7 +46,7 @@ defmodule Delegate.MixProject do
     [
       maintainers: ["Francesco Belladonna"],
       description:
-        "Delegate macros, all functions and macros to another module",
+        "Delegate macros or all functions and macros to another module",
       licenses: ["MIT"],
       links: %{"GitHub" => "https://github.com/rill-project/delegate"},
       files: [
