@@ -10,7 +10,7 @@ defmodule Delegate.Function do
           {:only, [{atom(), arity()}]} | {:except, [{atom(), arity()}]}
 
   @doc ~S"""
-  Creates macro delegates for each function on the `:to` module
+  Creates delegates for each function on the `:to` module
 
   ## Arguments
   - `to` module to delegate to and to find the list of functions to delegate

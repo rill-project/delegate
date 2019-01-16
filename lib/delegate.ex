@@ -19,6 +19,8 @@ defmodule Delegate do
   defmacro __using__(_opts \\ []) do
     quote do
       use Delegate.Macro
+      use Delegate.Function
+      use Delegate.Module
     end
   end
 end
